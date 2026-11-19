@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try { document.querySelector('meta[name="color-scheme"]').content = localStorage.getItem("color-scheme") ?? "light dark"; } catch (e) {}
+  </script>
+  <title>Page not found · Chau Lai Gia Thanh</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <main class="container not-found">
+    <div>
+      <p class="code" aria-hidden="true">404</p>
+      <h1>This page doesn’t exist.</h1>
+      <p>The link may be broken, or the page may have moved.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/">Back to home</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

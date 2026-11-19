@@ -1,0 +1,12 @@
+{
+  "name": "Chau Lai Gia Thanh",
+  "short_name": "giathanh",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/assets/img/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f7f6f2",
+  "theme_color": "#0b7a5e"
+}
